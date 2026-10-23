@@ -1,0 +1,71 @@
+/*This is one of my very first projects 😊 */
+
+
+body {
+  background-color: pink;
+}
+
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.card2 {
+  color: red;
+}
+
+.left {
+  align-self: flex-start;
+  transform: scaleY(2) scaleX(2);
+  margin-top: 8px;
+  margin-left: 5px;
+
+
+}
+
+
+.middle {
+  align-self: center;
+  display: flex;
+  transform: scaleY(6) scaleX(6);
+
+
+}
+
+.middle-flip {
+  align-self: center;
+  display: flex;
+  transform: scaleY(-6) scaleX(6);
+
+
+}
+
+.right {
+  align-self: flex-end;
+  transform: scaleY(-2) scaleX(-2);
+  margin-bottom: 8px;
+  margin-right: 5px
+}
+
+span {
+  font-size: 14px;
+  font-weight: 600;
+}
